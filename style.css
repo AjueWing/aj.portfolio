@@ -742,3 +742,67 @@ a:hover {
     height: auto !important;
   }
 }
+
+/* Case Study Modal Styles */
+.modal-content.case-study {
+  max-width: 1100px;
+  background: #1a1a1a;
+  color: #eee;
+}
+
+.modal-frames {
+  padding: 2rem;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.modal-frame {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(0, 184, 148, 0.2);
+}
+
+.modal-frame h4 {
+  font-size: 1.5rem;
+  color: #00b894;
+  margin-bottom: 0.5rem;
+}
+
+.modal-frame img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 1rem 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.frame-note {
+  color: #999;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.modal-tech-footer {
+  padding: 1.5rem 2rem;
+  background: #111;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  border-top: 1px solid rgba(0, 184, 148, 0.2);
+}
+
+.modal-tech-footer .btn {
+  margin-left: 1rem;
+}
+
+/* Responsive for case study */
+@media (max-width: 768px) {
+  .modal-tech-footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .modal-tech-footer .btn {
+    margin-left: 0;
+  }
+}
