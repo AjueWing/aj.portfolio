@@ -1,0 +1,56 @@
+[
+  {
+    "id": "modal1",
+    "title": "Neural Dashboard",
+    "description": "A real-time analytics dashboard built with React, D3.js, and Firebase. Features dark-mode UI, live data streaming, and customizable widgets for business intelligence.",
+    "image": "https://placehold.co/600x400/1a1a1a/00b894?text=Project+1",
+    "tech": ["React", "Firebase", "D3.js", "Chart.js"],
+    "demoUrl": "#",
+    "sourceUrl": "#"
+  },
+  {
+    "id": "modal2",
+    "title": "EcoTrack App",
+    "description": "A mobile application for tracking carbon footprint and promoting sustainable habits. Built with React Native and integrated with health APIs.",
+    "image": "https://placehold.co/600x400/1a1a1a/f39c12?text=Project+2",
+    "tech": ["React Native", "Expo", "HealthKit", "Firebase Auth"],
+    "demoUrl": "#",
+    "sourceUrl": "#"
+  },
+  {
+    "id": "modal3",
+    "title": "CodeFlow IDE",
+    "description": "A browser-based integrated development environment with syntax highlighting, auto-completion, and collaborative editing features.",
+    "image": "https://placehold.co/600x400/1a1a1a/9b59b6?text=Project+3",
+    "tech": ["TypeScript", "Monaco Editor", "WebSockets", "Express"],
+    "demoUrl": "#",
+    "sourceUrl": "#"
+  },
+  {
+    "id": "modal4",
+    "title": "QuantumChat",
+    "description": "A secure, end-to-end encrypted messaging platform with self-destructing messages and quantum-resistant cryptography concepts.",
+    "image": "https://placehold.co/600x400/1a1a1a/e74c3c?text=Project+4",
+    "tech": ["Node.js", "Socket.IO", "CryptoJS", "React"],
+    "demoUrl": "#",
+    "sourceUrl": "#"
+  },
+  {
+    "id": "modal5",
+    "title": "DataVault",
+    "description": "A secure cloud storage solution with client-side encryption, multi-factor authentication, and file versioning. Designed for enterprise use.",
+    "image": "https://placehold.co/600x400/1a1a1a/3498db?text=Project+5",
+    "tech": ["Node.js", "AWS S3", "JWT", "React"],
+    "demoUrl": "#",
+    "sourceUrl": "#"
+  },
+  {
+    "id": "modal6",
+    "title": "AI Resume Builder",
+    "description": "An intelligent resume generator that analyzes job descriptions and tailors resumes accordingly using NLP and machine learning models.",
+    "image": "https://placehold.co/600x400/1a1a1a/2ecc71?text=Project+6",
+    "tech": ["Python", "Flask", "NLTK", "SpaCy"],
+    "demoUrl": "#",
+    "sourceUrl": "#"
+  }
+]
