@@ -1,77 +1,65 @@
 [
   {
-    "id": "modal1",
-    "title": "Neural Dashboard",
-    "coverImage": "assets/project1-cover.jpg",
-    "frames": [
-      {
-        "section": "Overview",
-        "text": "Lumen is a sustainability-focused lifestyle startup that creates eco-friendly home products designed for urban millennials. Their product range includes reusable kitchenware, minimal home goods, and refillable cleaning supplies.
-
-Scope: Develop a complete brand identity system, including:
-
-Logo redesign
-
-Typography & color system
-
-Brand guidelines
-
-Applications across packaging, website, and social media
-
-Digital style guide for product and web consistency",
-        "image": "assets/project1-overview.jpg",
-        "note": "Use a clean banner or title card here."
-      },
-      {
-        "section": "Problem",
-        "text": "Explain the pain point (e.g., outdated analytics dashboard, poor UX).",
-        "image": "assets/project1-problem.jpg",
-        "note": "Insert 'before' screenshot if you have one, else placeholder."
-      },
-      {
-        "section": "Research",
-        "text": "Summarize user personas, competitor findings, market trends.",
-        "image": "assets/project1-research.jpg",
-        "note": "Collage of personas/moodboard works well here."
-      },
-      {
-        "section": "Design Goals",
-        "text": "List 3–4 clear objectives (e.g., improve usability, modernize UI).",
-        "image": "assets/project1-goals.jpg",
-        "note": "Icons + bullet list graphic fits nicely."
-      },
-      {
-        "section": "Process",
-        "text": "Show ideation, sketches, wireframes, iterations.",
-        "image": "assets/project1-process.jpg",
-        "note": "Document different steps; you can break into multiple slides if needed."
-      },
-      {
-        "section": "Applications",
-        "text": "Show final UI applied in web + mobile mockups.",
-        "image": "assets/project1-applications.jpg",
-        "note": "Full-screen mockups look good here."
-      },
-      {
-        "section": "Deliverables",
-        "text": "List all final outputs (design system, guidelines, prototype).",
-        "image": "assets/project1-deliverables.jpg",
-        "note": "Create a montage of all deliverables."
-      },
-      {
-        "section": "Impact",
-        "text": "State hypothetical results and a testimonial.",
-        "image": "assets/project1-impact.jpg",
-        "note": "Use metric graphics or testimonial cards."
-      },
-      {
-        "section": "Reflection",
-        "text": "Personal learning and what you’d improve.",
-        "image": "assets/project1-reflection.jpg",
-        "note": "Keep it text-light; use an aesthetic background."
-      }
+  "id": "modal1",
+  "title": "Lumen — Brand Identity & Digital Style System",
+  "coverImage": "assets/lumen-cover.jpg",
+  "frames": [
+    {
+      "section": "Overview",
+      "text": "Lumen is a sustainability-focused lifestyle startup that creates eco-friendly home products for urban millennials. Scope: develop a complete brand identity system, including logo redesign, typography, color system, brand guidelines, applications across packaging, website, and social media, plus a digital style guide.",
+      "image": "assets/lumen-overview.jpg",
+      "note": "Use a clean banner or title card here."
+    },
+    {
+      "section": "Problem",
+      "text": "Lumen launched quickly with a DIY logo and inconsistent visual style. The brand struggled with an outdated logo, inconsistent typography and color palette across digital and physical touchpoints, and weak differentiation in a crowded eco-lifestyle market. A strong, recognizable identity was critical to build trust, attract eco-conscious buyers, and position Lumen as premium yet approachable.",
+      "image": "assets/lumen-problem.jpg",
+      "note": "Show old logo or placeholder comparison."
+    },
+    {
+      "section": "Research",
+      "text": "Market research revealed that competitors leaned heavily on green tones and nature motifs, creating visual sameness. Successful eco-brands balanced minimalism with warmth. Personas: Sofia (27, urban professional, values aesthetics and sustainability, active on Instagram) and James (34, young dad, prioritizes safety, clarity, and trust in packaging). Visual inspiration: Scandinavian minimalism, editorial typography, muted palettes with warm accents, geometric iconography.",
+      "image": "assets/lumen-research.jpg",
+      "note": "Collage of personas, competitor brands, and moodboard."
+    },
+    {
+      "section": "Design Goals",
+      "text": "1. Modernize identity to feel premium yet approachable.\n2. Establish a cohesive system adaptable across digital and physical assets.\n3. Differentiate from green-heavy branding clichés.\n4. Create scalable guidelines for web, packaging, and social channels.",
+      "image": "assets/lumen-goals.jpg",
+      "note": "Use icon set or simple graphic to show 4 goals."
+    },
+    {
+      "section": "Process",
+      "text": "Logo development explored wordmark concepts emphasizing clarity and geometry. Final design: a clean sans-serif logotype with a circular accent symbolizing renewal and cycles of sustainability. Typography: modern serif (editorial elegance) paired with geometric sans-serif (digital clarity). Color palette: neutral base (off-white, stone, charcoal) with warm terracotta accent. Process included sketches, iterations, and digital refinements.",
+      "image": "assets/lumen-process.jpg",
+      "note": "Include logo sketches, typography system, and palette graphic."
+    },
+    {
+      "section": "Applications",
+      "text": "Applied the system across packaging, website, and social. Packaging: minimal layouts with terracotta accents for hierarchy. Website: clean grid, editorial typography, lifestyle photography. Social media: bold type overlays with warm highlights.",
+      "image": "assets/lumen-applications.jpg",
+      "note": "Show packaging mockup, website screens, and Instagram grid."
+    },
+    {
+      "section": "Deliverables",
+      "text": "Final outputs included the logo system (primary, icon, monochrome), typography and color guidelines, full brand guidelines PDF, packaging mockups, website homepage and product page, Instagram grid preview, and digital style guide components.",
+      "image": "assets/lumen-deliverables.jpg",
+      "note": "Hero-style montage of all deliverables."
+    },
+    {
+      "section": "Impact",
+      "text": "Projected brand recognition increase: +40% through consistent, distinct visuals. Website redesign estimated to improve clarity of product categories and reduce bounce rate by 25–30%. Social engagement projected to double due to cohesive, bold visuals. Fictional testimonial: “The new identity finally captures who we are: modern, sustainable, and human. Our customers immediately noticed the change and responded with excitement.” – Lumen Co-Founder",
+      "image": "assets/lumen-impact.jpg",
+      "note": "Add metrics graphics and testimonial card."
+    },
+    {
+      "section": "Reflection",
+      "text": "This project reinforced the importance of balancing strategy with aesthetics—avoiding clichés while still signaling sustainability. With more time, I would extend the system into motion design for social reels and product demo videos to strengthen storytelling.",
+      "image": "assets/lumen-reflection.jpg",
+      "note": "Keep this minimal with a soft visual background."
+      }  
     ],
-    "tech": ["React", "Firebase", "D3.js", "Chart.js"],
+    "tech": ["Illustrator", "Photoshop", "Figma", "InDesign"],
     "demoUrl": "#",
     "sourceUrl": "#"
   },
