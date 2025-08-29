@@ -1,5 +1,5 @@
 // script.js
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   // Set current year in footer
   document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -30,20 +30,19 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
-  // Smooth Scrolling for Navigation Links
+  // Smooth Scrolling
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
+    anchor.addEventListener('click', function (e) {
       e.preventDefault();
       const targetId = this.getAttribute('href');
       const targetElement = document.querySelector(targetId);
-      
+
       if (targetElement) {
         window.scrollTo({
           top: targetElement.offsetTop - 80,
-          behavior: 'smooth'
+          behavior: 'smooth',
         });
 
-        // Update active nav link
         document.querySelectorAll('.nav-link').forEach(link => {
           link.classList.remove('active');
         });
@@ -52,14 +51,12 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  // Scroll Reveal Animation
-  const revealElements = document.querySelectorAll('.about, .portfolio, .contact, .section-title, .skills, .contact-info, .contact-form');
-  
+  // Scroll Reveal
+  const revealElements = document.querySelectorAll('.about, .portfolio, .contact, .section-title');
   const revealOnScroll = () => {
     revealElements.forEach(element => {
       const elementTop = element.getBoundingClientRect().top;
       const windowHeight = window.innerHeight;
-      
       if (elementTop < windowHeight - 100) {
         element.classList.add('fade-in', 'visible');
       }
@@ -67,23 +64,28 @@ document.addEventListener('DOMContentLoaded', function() {
   };
 
   window.addEventListener('scroll', revealOnScroll);
-  revealOnScroll(); // Check on load
+  revealOnScroll();
 
   // Load Projects from JSON
   fetch('projects.json')
-    .then(response => {
-      if (!response.ok) throw new Error('Failed to load projects');
+    .then((response) => {
+      if (!response.ok) throw new Error('Failed to load projects.json');
       return response.json();
     })
-    .then(projects => {
+    .then((projects) => {
       renderPortfolio(projects);
       setupModalListeners();
     })
-    .catch(error => {
+    .catch((error) => {
       console.error('Error loading projects:', error);
-      document.getElementById('portfolioGrid').innerHTML = '<p style="color: #ccc; grid-column: 1/-1; text-align: center;">Failed to load projects.</p>';
+      document.getElementById('portfolioGrid').innerHTML = `
+        <p style="color: #ccc; grid-column: 1/-1; text-align: center;">
+          Failed to load projects. Check console or file path.
+        </p>
+      `;
     });
 
+  // === RENDER PORTFOLIO ===
   function renderPortfolio(projects) {
     const portfolioGrid = document.getElementById('portfolioGrid');
     const modalsContainer = document.getElementById('modalsContainer');
@@ -91,11 +93,11 @@ document.addEventListener('DOMContentLoaded', function() {
     let portfolioHTML = '';
     let modalsHTML = '';
 
-    projects.forEach(project => {
-      // Portfolio Item
+    projects.forEach((project) => {
+      // Portfolio Item (uses coverImage)
       portfolioHTML += `
         <div class="portfolio-item" data-modal="${project.id}">
-          <img src="${project.image}" alt="${project.title}" class="portfolio-img" loading="lazy">
+          <img src="${project.coverImage}" alt="${project.title}" class="portfolio-img" loading="lazy">
           <div class="portfolio-overlay">
             <h3>${project.title}</h3>
             <p>${project.tech.slice(0, 2).join(' + ')}</p>
@@ -103,20 +105,32 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
       `;
 
-      // Modal
+      // Modal with Frames (case study style)
+      let framesHTML = '';
+      project.frames.forEach((frame) => {
+        framesHTML += `
+          <div class="modal-frame">
+            <h4>${frame.section}</h4>
+            <p>${frame.text}</p>
+            <img src="${frame.image}" alt="${frame.section}" class="frame-image" loading="lazy">
+            <small class="frame-note">${frame.note}</small>
+          </div>
+        `;
+      });
+
       modalsHTML += `
         <div id="${project.id}" class="modal">
-          <div class="modal-content">
+          <div class="modal-content case-study">
             <span class="close">&times;</span>
-            <img src="${project.image}" alt="${project.title}" class="modal-img">
-            <div class="modal-text">
-              <h2>${project.title}</h2>
-              <p>${project.description}</p>
-              <ul class="modal-tech">
-                ${project.tech.map(tech => `<li>${tech}</li>`).join('')}
-              </ul>
-              <a href="${project.demoUrl}" class="btn btn-outline">Live Demo</a>
-              <a href="${project.sourceUrl}" class="btn btn-primary">Source Code</a>
+            <div class="modal-frames">
+              ${framesHTML}
+            </div>
+            <div class="modal-tech-footer">
+              <strong>Tech:</strong> ${project.tech.join(', ')}
+              <div>
+                <a href="${project.demoUrl}" class="btn btn-outline">Live Demo</a>
+                <a href="${project.sourceUrl}" class="btn btn-primary">Source Code</a>
+              </div>
             </div>
           </div>
         </div>
@@ -127,12 +141,13 @@ document.addEventListener('DOMContentLoaded', function() {
     modalsContainer.innerHTML = modalsHTML;
   }
 
+  // === MODAL LISTENERS ===
   function setupModalListeners() {
     const portfolioItems = document.querySelectorAll('.portfolio-item');
     const modals = document.querySelectorAll('.modal');
     const closeButtons = document.querySelectorAll('.close');
 
-    portfolioItems.forEach(item => {
+    portfolioItems.forEach((item) => {
       item.addEventListener('click', () => {
         const modalId = item.getAttribute('data-modal');
         const modal = document.getElementById(modalId);
@@ -142,7 +157,7 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
 
-    closeButtons.forEach(button => {
+    closeButtons.forEach((button) => {
       button.addEventListener('click', () => {
         const modal = button.closest('.modal');
         modal.classList.remove('show');
@@ -153,7 +168,7 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
 
-    modals.forEach(modal => {
+    modals.forEach((modal) => {
       modal.addEventListener('click', (e) => {
         if (e.target === modal) {
           modal.classList.remove('show');
@@ -166,9 +181,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Back to Top Button
+  // === Back to Top ===
   const backToTopButton = document.getElementById('backToTop');
-  
   window.addEventListener('scroll', () => {
     if (window.scrollY > 300) {
       backToTopButton.classList.add('visible');
@@ -176,35 +190,27 @@ document.addEventListener('DOMContentLoaded', function() {
       backToTopButton.classList.remove('visible');
     }
   });
-
   backToTopButton.addEventListener('click', () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 
-  // Form Validation
+  // === Form Validation ===
   const contactForm = document.getElementById('contactForm');
-  
   contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
-    
     const name = document.getElementById('name').value.trim();
     const email = document.getElementById('email').value.trim();
     const message = document.getElementById('message').value.trim();
-    
+
     if (!name || !email || !message) {
       alert('Please fill in all fields.');
       return;
     }
-    
     if (!validateEmail(email)) {
       alert('Please enter a valid email address.');
       return;
     }
-    
-    alert('Message sent successfully! I will get back to you soon.');
+    alert('Message sent successfully!');
     contactForm.reset();
   });
 
