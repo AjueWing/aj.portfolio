@@ -2,8 +2,63 @@
   {
     "id": "modal1",
     "title": "Neural Dashboard",
-    "description": "A real-time analytics dashboard built with React, D3.js, and Firebase. Features dark-mode UI, live data streaming, and customizable widgets for business intelligence.",
-    "image": "https://placehold.co/600x400/1a1a1a/00b894?text=Project+1",
+    "coverImage": "assets/project1-cover.jpg",
+    "frames": [
+      {
+        "section": "Overview",
+        "text": "Short intro about the project/client and scope.",
+        "image": "assets/project1-overview.jpg",
+        "note": "Use a clean banner or title card here."
+      },
+      {
+        "section": "Problem",
+        "text": "Explain the pain point (e.g., outdated analytics dashboard, poor UX).",
+        "image": "assets/project1-problem.jpg",
+        "note": "Insert 'before' screenshot if you have one, else placeholder."
+      },
+      {
+        "section": "Research",
+        "text": "Summarize user personas, competitor findings, market trends.",
+        "image": "assets/project1-research.jpg",
+        "note": "Collage of personas/moodboard works well here."
+      },
+      {
+        "section": "Design Goals",
+        "text": "List 3–4 clear objectives (e.g., improve usability, modernize UI).",
+        "image": "assets/project1-goals.jpg",
+        "note": "Icons + bullet list graphic fits nicely."
+      },
+      {
+        "section": "Process",
+        "text": "Show ideation, sketches, wireframes, iterations.",
+        "image": "assets/project1-process.jpg",
+        "note": "Document different steps; you can break into multiple slides if needed."
+      },
+      {
+        "section": "Applications",
+        "text": "Show final UI applied in web + mobile mockups.",
+        "image": "assets/project1-applications.jpg",
+        "note": "Full-screen mockups look good here."
+      },
+      {
+        "section": "Deliverables",
+        "text": "List all final outputs (design system, guidelines, prototype).",
+        "image": "assets/project1-deliverables.jpg",
+        "note": "Create a montage of all deliverables."
+      },
+      {
+        "section": "Impact",
+        "text": "State hypothetical results and a testimonial.",
+        "image": "assets/project1-impact.jpg",
+        "note": "Use metric graphics or testimonial cards."
+      },
+      {
+        "section": "Reflection",
+        "text": "Personal learning and what you’d improve.",
+        "image": "assets/project1-reflection.jpg",
+        "note": "Keep it text-light; use an aesthetic background."
+      }
+    ],
     "tech": ["React", "Firebase", "D3.js", "Chart.js"],
     "demoUrl": "#",
     "sourceUrl": "#"
@@ -11,8 +66,63 @@
   {
     "id": "modal2",
     "title": "EcoTrack App",
-    "description": "A mobile application for tracking carbon footprint and promoting sustainable habits. Built with React Native and integrated with health APIs.",
-    "image": "https://placehold.co/600x400/1a1a1a/f39c12?text=Project+2",
+    "coverImage": "assets/project2-cover.jpg",
+    "frames": [
+      {
+        "section": "Overview",
+        "text": "App for tracking carbon footprint.",
+        "image": "assets/project2-overview.jpg",
+        "note": "Use lifestyle + app mockup hero."
+      },
+      {
+        "section": "Problem",
+        "text": "Users struggled to understand their eco-impact in a simple way.",
+        "image": "assets/project2-problem.jpg",
+        "note": "Could show messy/cluttered apps as comparison."
+      },
+      {
+        "section": "Research",
+        "text": "Personas and competitor apps were too complex or gamified.",
+        "image": "assets/project2-research.jpg",
+        "note": "Add persona cards and app screenshots."
+      },
+      {
+        "section": "Design Goals",
+        "text": "Make eco-tracking fun, minimal, and clear.",
+        "image": "assets/project2-goals.jpg",
+        "note": "Icon-based goals work well."
+      },
+      {
+        "section": "Process",
+        "text": "Sketches → wireframes → prototype screens.",
+        "image": "assets/project2-process.jpg",
+        "note": "Include app wireframe shots."
+      },
+      {
+        "section": "Applications",
+        "text": "Final mobile screens and interactions.",
+        "image": "assets/project2-applications.jpg",
+        "note": "Use phone mockups here."
+      },
+      {
+        "section": "Deliverables",
+        "text": "Brand kit + clickable prototype.",
+        "image": "assets/project2-deliverables.jpg",
+        "note": "Montage layout."
+      },
+      {
+        "section": "Impact",
+        "text": "Improved clarity → more consistent daily log-ins.",
+        "image": "assets/project2-impact.jpg",
+        "note": "Use stat graphics."
+      },
+      {
+        "section": "Reflection",
+        "text": "Learned to balance usability with playful design.",
+        "image": "assets/project2-reflection.jpg",
+        "note": "Soft gradient background looks good."
+      }
+    ],
     "tech": ["React Native", "Expo", "HealthKit", "Firebase Auth"],
     "demoUrl": "#",
     "sourceUrl": "#"
@@ -20,8 +130,63 @@
   {
     "id": "modal3",
     "title": "CodeFlow IDE",
-    "description": "A browser-based integrated development environment with syntax highlighting, auto-completion, and collaborative editing features. Built with Monaco Editor and WebSockets.",
-    "image": "https://placehold.co/600x400/1a1a1a/9b59b6?text=Project+3",
+    "coverImage": "assets/project3-cover.jpg",
+    "frames": [
+      {
+        "section": "Overview",
+        "text": "Browser-based IDE with collaborative editing.",
+        "image": "assets/project3-overview.jpg",
+        "note": "Wide layout screenshot."
+      },
+      {
+        "section": "Problem",
+        "text": "Existing tools were too heavy and hard for beginners.",
+        "image": "assets/project3-problem.jpg",
+        "note": "Use screenshot comparisons."
+      },
+      {
+        "section": "Research",
+        "text": "Surveyed student developers → wanted lightweight IDE.",
+        "image": "assets/project3-research.jpg",
+        "note": "Persona slide + competitor grid."
+      },
+      {
+        "section": "Design Goals",
+        "text": "Lightweight, modern, and easy-to-learn editor.",
+        "image": "assets/project3-goals.jpg",
+        "note": "Icons above goals."
+      },
+      {
+        "section": "Process",
+        "text": "Wireframes → syntax highlighting → live tests.",
+        "image": "assets/project3-process.jpg",
+        "note": "Screenshot iterations."
+      },
+      {
+        "section": "Applications",
+        "text": "Final web app mockup in browser windows.",
+        "image": "assets/project3-applications.jpg",
+        "note": "Desktop mockups only."
+      },
+      {
+        "section": "Deliverables",
+        "text": "Final UI kit + deployed prototype.",
+        "image": "assets/project3-deliverables.jpg",
+        "note": "Montage slide."
+      },
+      {
+        "section": "Impact",
+        "text": "Faster onboarding for new coders.",
+        "image": "assets/project3-impact.jpg",
+        "note": "Use growth arrows."
+      },
+      {
+        "section": "Reflection",
+        "text": "Improved skills in designing for developers.",
+        "image": "assets/project3-reflection.jpg",
+        "note": "Neutral toned background."
+      }
+    ],
     "tech": ["TypeScript", "Monaco Editor", "WebSockets", "Express"],
     "demoUrl": "#",
     "sourceUrl": "#"
@@ -29,8 +194,63 @@
   {
     "id": "modal4",
     "title": "QuantumChat",
-    "description": "A secure, end-to-end encrypted messaging platform with self-destructing messages and quantum-resistant cryptography concepts.",
-    "image": "https://placehold.co/600x400/1a1a1a/e74c3c?text=Project+4",
+    "coverImage": "assets/project4-cover.jpg",
+    "frames": [
+      {
+        "section": "Overview",
+        "text": "Secure, encrypted messaging app.",
+        "image": "assets/project4-overview.jpg",
+        "note": "Cover: phone UI + security icons."
+      },
+      {
+        "section": "Problem",
+        "text": "Users didn’t trust existing chat apps’ privacy.",
+        "image": "assets/project4-problem.jpg",
+        "note": "Show existing app screenshots with lock icons."
+      },
+      {
+        "section": "Research",
+        "text": "Interviews showed users needed clarity in security UI.",
+        "image": "assets/project4-research.jpg",
+        "note": "Persona cards + charts."
+      },
+      {
+        "section": "Design Goals",
+        "text": "Transparent, simple, yet powerful encryption UX.",
+        "image": "assets/project4-goals.jpg",
+        "note": "Use shields or padlock icons."
+      },
+      {
+        "section": "Process",
+        "text": "Wireframes → encryption badge icons → prototype.",
+        "image": "assets/project4-process.jpg",
+        "note": "Include design iterations."
+      },
+      {
+        "section": "Applications",
+        "text": "Final app screens on mobile mockups.",
+        "image": "assets/project4-applications.jpg",
+        "note": "Dark + light mode variants."
+      },
+      {
+        "section": "Deliverables",
+        "text": "UI kit + mobile prototypes.",
+        "image": "assets/project4-deliverables.jpg",
+        "note": "Slide montage."
+      },
+      {
+        "section": "Impact",
+        "text": "Boosted trust in app → projected higher retention.",
+        "image": "assets/project4-impact.jpg",
+        "note": "Charts with padlock icons."
+      },
+      {
+        "section": "Reflection",
+        "text": "Balancing usability with security symbolism.",
+        "image": "assets/project4-reflection.jpg",
+        "note": "Subtle gradient background."
+      }
+    ],
     "tech": ["Node.js", "Socket.IO", "CryptoJS", "React"],
     "demoUrl": "#",
     "sourceUrl": "#"
@@ -38,8 +258,63 @@
   {
     "id": "modal5",
     "title": "DataVault",
-    "description": "A secure cloud storage solution with client-side encryption, multi-factor authentication, and file versioning. Designed for enterprise use.",
-    "image": "https://placehold.co/600x400/1a1a1a/3498db?text=Project+5",
+    "coverImage": "assets/project5-cover.jpg",
+    "frames": [
+      {
+        "section": "Overview",
+        "text": "Enterprise cloud storage system.",
+        "image": "assets/project5-overview.jpg",
+        "note": "Cover image: server + abstract vault icon."
+      },
+      {
+        "section": "Problem",
+        "text": "Unsecure file sharing caused compliance risks.",
+        "image": "assets/project5-problem.jpg",
+        "note": "Show broken lock or messy files graphic."
+      },
+      {
+        "section": "Research",
+        "text": "Audits showed teams struggled with file versioning.",
+        "image": "assets/project5-research.jpg",
+        "note": "Chart of pain points."
+      },
+      {
+        "section": "Design Goals",
+        "text": "Secure, scalable, and enterprise-friendly.",
+        "image": "assets/project5-goals.jpg",
+        "note": "Business icons with bullet goals."
+      },
+      {
+        "section": "Process",
+        "text": "Wireframes → data flow → secure interface designs.",
+        "image": "assets/project5-process.jpg",
+        "note": "Flow diagrams + UI iterations."
+      },
+      {
+        "section": "Applications",
+        "text": "Final web dashboard mockup.",
+        "image": "assets/project5-applications.jpg",
+        "note": "Laptop browser mockup."
+      },
+      {
+        "section": "Deliverables",
+        "text": "Brand kit + final dashboard + PDF guidelines.",
+        "image": "assets/project5-deliverables.jpg",
+        "note": "Show deliverable icons."
+      },
+      {
+        "section": "Impact",
+        "text": "Projected fewer compliance risks, faster adoption.",
+        "image": "assets/project5-impact.jpg",
+        "note": "Use metrics dashboard visuals."
+      },
+      {
+        "section": "Reflection",
+        "text": "Learned enterprise-grade security UX challenges.",
+        "image": "assets/project5-reflection.jpg",
+        "note": "Corporate blue background."
+      }
+    ],
     "tech": ["Node.js", "AWS S3", "JWT", "React"],
     "demoUrl": "#",
     "sourceUrl": "#"
@@ -47,8 +322,63 @@
   {
     "id": "modal6",
     "title": "AI Resume Builder",
-    "description": "An intelligent resume generator that analyzes job descriptions and tailors resumes accordingly using NLP and machine learning models.",
-    "image": "https://placehold.co/600x400/1a1a1a/2ecc71?text=Project+6",
+    "coverImage": "assets/project6-cover.jpg",
+    "frames": [
+      {
+        "section": "Overview",
+        "text": "AI-powered resume tailoring tool.",
+        "image": "assets/project6-overview.jpg",
+        "note": "Cover with laptop + AI concept icons."
+      },
+      {
+        "section": "Problem",
+        "text": "Job seekers struggled tailoring resumes to roles.",
+        "image": "assets/project6-problem.jpg",
+        "note": "Show generic resume visual."
+      },
+      {
+        "section": "Research",
+        "text": "Surveys showed applicants spent 6+ hours per job app.",
+        "image": "assets/project6-research.jpg",
+        "note": "Charts and persona data."
+      },
+      {
+        "section": "Design Goals",
+        "text": "Save time, auto-optimize resumes with NLP.",
+        "image": "assets/project6-goals.jpg",
+        "note": "Icons with stopwatch, AI brain."
+      },
+      {
+        "section": "Process",
+        "text": "Wireframes → AI resume scoring → polished UI.",
+        "image": "assets/project6-process.jpg",
+        "note": "Wireframe + prototype steps."
+      },
+      {
+        "section": "Applications",
+        "text": "Final web app UI + resume templates.",
+        "image": "assets/project6-applications.jpg",
+        "note": "Show resume previews inside laptop mockup."
+      },
+      {
+        "section": "Deliverables",
+        "text": "Full design system + AI flow diagram.",
+        "image": "assets/project6-deliverables.jpg",
+        "note": "Montage slide."
+      },
+      {
+        "section": "Impact",
+        "text": "Estimated 50% time saved in job prep.",
+        "image": "assets/project6-impact.jpg",
+        "note": "Use stat infographics."
+      },
+      {
+        "section": "Reflection",
+        "text": "Learned how to integrate AI UX into user-friendly flows.",
+        "image": "assets/project6-reflection.jpg",
+        "note": "Subtle neutral background."
+      }
+    ],
     "tech": ["Python", "Flask", "NLTK", "SpaCy"],
     "demoUrl": "#",
     "sourceUrl": "#"
