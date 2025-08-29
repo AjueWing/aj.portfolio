@@ -1,15 +1,18 @@
 // script.js
 document.addEventListener('DOMContentLoaded', function() {
-  // Footer year
+  // Set current year in footer
   document.getElementById('year').textContent = new Date().getFullYear();
 
-  // Hamburger toggle
+  // Mobile Menu Toggle
   const hamburger = document.querySelector('.hamburger');
   const navLinks = document.querySelector('.nav-links');
+
   hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('active');
     navLinks.classList.toggle('active');
   });
+
+  // Close mobile menu when clicking a link
   document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', () => {
       hamburger.classList.remove('active');
@@ -17,100 +20,131 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  // Navbar scroll effect
+  // Sticky Navbar
   const navbar = document.getElementById('navbar');
   window.addEventListener('scroll', () => {
-    navbar.classList.toggle('scrolled', window.scrollY > 50);
+    if (window.scrollY > 50) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
   });
 
-  // Smooth scroll
+  // Smooth Scrolling for Navigation Links
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
       e.preventDefault();
-      const target = document.querySelector(this.getAttribute('href'));
-      if (target) {
-        window.scrollTo({ top: target.offsetTop - 80, behavior: 'smooth' });
+      const targetId = this.getAttribute('href');
+      const targetElement = document.querySelector(targetId);
+      
+      if (targetElement) {
+        window.scrollTo({
+          top: targetElement.offsetTop - 80,
+          behavior: 'smooth'
+        });
+
+        // Update active nav link
+        document.querySelectorAll('.nav-link').forEach(link => {
+          link.classList.remove('active');
+        });
+        this.classList.add('active');
       }
     });
   });
 
-  // Reveal on scroll
-  const revealElements = document.querySelectorAll('.about, .portfolio, .contact, .section-title');
+  // Scroll Reveal Animation
+  const revealElements = document.querySelectorAll('.about, .portfolio, .contact, .section-title, .skills, .contact-info, .contact-form');
+  
   const revealOnScroll = () => {
-    revealElements.forEach(el => {
-      if (el.getBoundingClientRect().top < window.innerHeight - 100) {
-        el.classList.add('fade-in', 'visible');
+    revealElements.forEach(element => {
+      const elementTop = element.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+      
+      if (elementTop < windowHeight - 100) {
+        element.classList.add('fade-in', 'visible');
       }
     });
   };
+
   window.addEventListener('scroll', revealOnScroll);
-  revealOnScroll();
+  revealOnScroll(); // Check on load
 
-  // Load Projects dynamically
+  // Load Projects from JSON
   fetch('projects.json')
-    .then(res => res.json())
-    .then(projects => {
-      const grid = document.getElementById('portfolioGrid');
-      const modals = document.getElementById('modalsContainer');
-
-      grid.innerHTML = '';
-      modals.innerHTML = '';
-
-      projects.forEach(project => {
-        // Project card
-        grid.innerHTML += `
-          <div class="portfolio-item" data-modal="${project.id}">
-            <img src="${project.image}" alt="${project.title}" class="portfolio-img" loading="lazy">
-            <div class="portfolio-overlay">
-              <h3>${project.title}</h3>
-              <p>${project.tech.slice(0,2).join(' + ')}</p>
-            </div>
-          </div>
-        `;
-
-        // Modal
-        modals.innerHTML += `
-          <div id="${project.id}" class="modal">
-            <div class="modal-content">
-              <span class="close">&times;</span>
-              <img src="${project.image}" alt="${project.title}" class="modal-img">
-              <div class="modal-text">
-                <h2>${project.title}</h2>
-                <p>${project.description}</p>
-                <ul class="modal-tech">${project.tech.map(t => `<li>${t}</li>`).join('')}</ul>
-                <a href="${project.demoUrl}" class="btn btn-outline" target="_blank">Live Demo</a>
-                <a href="${project.sourceUrl}" class="btn btn-primary" target="_blank">Source Code</a>
-              </div>
-            </div>
-          </div>
-        `;
-      });
-
-      setupModals();
+    .then(response => {
+      if (!response.ok) throw new Error('Failed to load projects');
+      return response.json();
     })
-    .catch(err => {
-      console.error('Failed to load projects:', err);
-      document.getElementById('portfolioGrid').innerHTML = '<p style="color:#ccc;text-align:center;">Could not load projects.</p>';
+    .then(projects => {
+      renderPortfolio(projects);
+      setupModalListeners();
+    })
+    .catch(error => {
+      console.error('Error loading projects:', error);
+      document.getElementById('portfolioGrid').innerHTML = '<p style="color: #ccc; grid-column: 1/-1; text-align: center;">Failed to load projects.</p>';
     });
 
-  // Modal functions
-  function setupModals() {
-    const items = document.querySelectorAll('.portfolio-item');
-    const modals = document.querySelectorAll('.modal');
-    const closes = document.querySelectorAll('.close');
+  function renderPortfolio(projects) {
+    const portfolioGrid = document.getElementById('portfolioGrid');
+    const modalsContainer = document.getElementById('modalsContainer');
 
-    items.forEach(item => {
+    let portfolioHTML = '';
+    let modalsHTML = '';
+
+    projects.forEach(project => {
+      // Portfolio Item
+      portfolioHTML += `
+        <div class="portfolio-item" data-modal="${project.id}">
+          <img src="${project.image}" alt="${project.title}" class="portfolio-img" loading="lazy">
+          <div class="portfolio-overlay">
+            <h3>${project.title}</h3>
+            <p>${project.tech.slice(0, 2).join(' + ')}</p>
+          </div>
+        </div>
+      `;
+
+      // Modal
+      modalsHTML += `
+        <div id="${project.id}" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="${project.image}" alt="${project.title}" class="modal-img">
+            <div class="modal-text">
+              <h2>${project.title}</h2>
+              <p>${project.description}</p>
+              <ul class="modal-tech">
+                ${project.tech.map(tech => `<li>${tech}</li>`).join('')}
+              </ul>
+              <a href="${project.demoUrl}" class="btn btn-outline">Live Demo</a>
+              <a href="${project.sourceUrl}" class="btn btn-primary">Source Code</a>
+            </div>
+          </div>
+        </div>
+      `;
+    });
+
+    portfolioGrid.innerHTML = portfolioHTML;
+    modalsContainer.innerHTML = modalsHTML;
+  }
+
+  function setupModalListeners() {
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
+    const modals = document.querySelectorAll('.modal');
+    const closeButtons = document.querySelectorAll('.close');
+
+    portfolioItems.forEach(item => {
       item.addEventListener('click', () => {
-        const modal = document.getElementById(item.dataset.modal);
+        const modalId = item.getAttribute('data-modal');
+        const modal = document.getElementById(modalId);
         modal.style.display = 'block';
         document.body.style.overflow = 'hidden';
         setTimeout(() => modal.classList.add('show'), 10);
       });
     });
 
-    closes.forEach(btn => {
-      btn.addEventListener('click', () => {
-        const modal = btn.closest('.modal');
+    closeButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const modal = button.closest('.modal');
         modal.classList.remove('show');
         setTimeout(() => {
           modal.style.display = 'none';
@@ -120,7 +154,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     modals.forEach(modal => {
-      modal.addEventListener('click', e => {
+      modal.addEventListener('click', (e) => {
         if (e.target === modal) {
           modal.classList.remove('show');
           setTimeout(() => {
@@ -132,25 +166,50 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Back-to-top button
-  const backToTop = document.getElementById('backToTop');
+  // Back to Top Button
+  const backToTopButton = document.getElementById('backToTop');
+  
   window.addEventListener('scroll', () => {
-    backToTop.classList.toggle('visible', window.scrollY > 300);
-  });
-  backToTop.addEventListener('click', () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    if (window.scrollY > 300) {
+      backToTopButton.classList.add('visible');
+    } else {
+      backToTopButton.classList.remove('visible');
+    }
   });
 
-  // Form validation
-  const form = document.getElementById('contactForm');
-  form.addEventListener('submit', e => {
-    e.preventDefault();
-    const name = form.name.value.trim();
-    const email = form.email.value.trim();
-    const message = form.message.value.trim();
-    if (!name || !email || !message) return alert('Please fill in all fields.');
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return alert('Enter a valid email.');
-    alert('Message sent! (demo only)');
-    form.reset();
+  backToTopButton.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
   });
+
+  // Form Validation
+  const contactForm = document.getElementById('contactForm');
+  
+  contactForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const message = document.getElementById('message').value.trim();
+    
+    if (!name || !email || !message) {
+      alert('Please fill in all fields.');
+      return;
+    }
+    
+    if (!validateEmail(email)) {
+      alert('Please enter a valid email address.');
+      return;
+    }
+    
+    alert('Message sent successfully! I will get back to you soon.');
+    contactForm.reset();
+  });
+
+  function validateEmail(email) {
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(email);
+  }
 });
