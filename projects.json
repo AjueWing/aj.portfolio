@@ -20,7 +20,7 @@
   {
     "id": "modal3",
     "title": "CodeFlow IDE",
-    "description": "A browser-based integrated development environment with syntax highlighting, auto-completion, and collaborative editing features.",
+    "description": "A browser-based integrated development environment with syntax highlighting, auto-completion, and collaborative editing features. Built with Monaco Editor and WebSockets.",
     "image": "https://placehold.co/600x400/1a1a1a/9b59b6?text=Project+3",
     "tech": ["TypeScript", "Monaco Editor", "WebSockets", "Express"],
     "demoUrl": "#",
