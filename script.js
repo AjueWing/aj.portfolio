@@ -87,55 +87,75 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // === RENDER PORTFOLIO ===
   function renderPortfolio(projects) {
-    const portfolioGrid = document.getElementById('portfolioGrid');
-    const modalsContainer = document.getElementById('modalsContainer');
+  const portfolioGrid = document.getElementById('portfolioGrid');
+  const modalsContainer = document.getElementById('modalsContainer');
 
-    let portfolioHTML = '';
-    let modalsHTML = '';
+  let portfolioHTML = '';
+  let modalsHTML = '';
 
-    projects.forEach((project) => {
-      // Portfolio Item (uses coverImage)
-      portfolioHTML += `
-        <div class="portfolio-item" data-modal="${project.id}">
-          <img src="${project.coverImage}" alt="${project.title}" class="portfolio-img" loading="lazy">
-          <div class="portfolio-overlay">
-            <h3>${project.title}</h3>
-            <p>${project.tech.slice(0, 2).join(' + ')}</p>
-          </div>
+  projects.forEach((project) => {
+    // Portfolio Grid Item
+    portfolioHTML += `
+      <div class="portfolio-item" data-modal="${project.id}">
+        <img src="${project.coverImage}" alt="${project.title}" class="portfolio-img" loading="lazy">
+        <div class="portfolio-overlay">
+          <h3>${project.title}</h3>
+          <p>${project.tech.slice(0, 2).join(' + ')}</p>
+        </div>
+      </div>
+    `;
+
+    // Build Frames for Modal
+    let framesHTML = '';
+    project.frames.forEach((frame) => {
+      let mediaHTML = '';
+
+      if (frame.video) {
+        mediaHTML = `
+          <video controls class="frame-video" preload="metadata">
+            <source src="${frame.video}" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        `;
+      } else if (frame.gif) {
+        mediaHTML = `<img src="${frame.gif}" alt="${frame.section}" class="frame-gif" loading="lazy">`;
+      } else if (frame.image) {
+        mediaHTML = `<img src="${frame.image}" alt="${frame.section}" class="frame-image" loading="lazy">`;
+      }
+
+      framesHTML += `
+        <div class="modal-frame">
+          <h4>${frame.section}</h4>
+          <p>${frame.text}</p>
+          ${mediaHTML}
+          ${frame.note ? `<small class="frame-note">${frame.note}</small>` : ''}
         </div>
       `;
+    });
 
-      // Modal with Frames (case study style)
-      let framesHTML = '';
-    project.frames.forEach((frame) => {
-    let mediaHTML = '';
+    // Full Modal
+    modalsHTML += `
+      <div id="${project.id}" class="modal">
+        <div class="modal-content case-study">
+          <span class="close">&times;</span>
+          <div class="modal-frames">
+            ${framesHTML}
+          </div>
+          <div class="modal-tech-footer">
+            <strong>Tech:</strong> ${project.tech.join(', ')}
+            <div>
+              <a href="${project.demoUrl}" class="btn btn-outline">Live Demo</a>
+              <a href="${project.sourceUrl}" class="btn btn-primary">Source Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+  });
 
-  if (frame.video) {
-    mediaHTML = `
-        <video controls class="frame-video" preload="metadata">
-          <source src="${frame.video}" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      `;
-  } else if (frame.gif) {
-    mediaHTML = `<img src="${frame.gif}" alt="${frame.section}" class="frame-gif" loading="lazy">`;
-  } else if (frame.image) {
-    mediaHTML = `<img src="${frame.image}" alt="${frame.section}" class="frame-image" loading="lazy">`;
-  }
-
-  framesHTML += `
-    <div class="modal-frame">
-      <h4>${frame.section}</h4>
-      <p>${frame.text}</p>
-      ${mediaHTML}
-      ${frame.note ? `<small class="frame-note">${frame.note}</small>` : ''}
-    </div>
-  `;
-});
-
-    portfolioGrid.innerHTML = portfolioHTML;
-    modalsContainer.innerHTML = modalsHTML;
-  }
+  portfolioGrid.innerHTML = portfolioHTML;
+  modalsContainer.innerHTML = modalsHTML;
+}
 
   // === MODAL LISTENERS ===
   function setupModalListeners() {
