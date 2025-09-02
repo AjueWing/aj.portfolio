@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function () {
     project.frames.forEach((frame) => {
     let mediaHTML = '';
 
-    if (frame.video) {
+  if (frame.video) {
     mediaHTML = `
         <video controls class="frame-video" preload="metadata">
           <source src="${frame.video}" type="video/mp4">
