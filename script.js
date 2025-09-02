@@ -107,16 +107,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
       // Modal with Frames (case study style)
       let framesHTML = '';
-project.frames.forEach((frame) => {
-  let mediaHTML = '';
+    project.frames.forEach((frame) => {
+    let mediaHTML = '';
 
-  if (frame.video) {
+    if (frame.video) {
     mediaHTML = `
-      <video controls class="frame-video" preload="metadata">
-        <source src="${frame.video}" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    `;
+        <video controls class="frame-video" preload="metadata">
+          <source src="${frame.video}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      `;
   } else if (frame.gif) {
     mediaHTML = `<img src="${frame.gif}" alt="${frame.section}" class="frame-gif" loading="lazy">`;
   } else if (frame.image) {
