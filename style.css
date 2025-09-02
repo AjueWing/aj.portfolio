@@ -806,3 +806,39 @@ a:hover {
     margin-left: 0;
   }
 }
+
+/* Frame Media Styles */
+.frame-video,
+.frame-gif,
+.frame-image {
+  width: 100%;
+  border-radius: 12px;
+  margin: 1rem 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 184, 148, 0.2);
+}
+
+.frame-video {
+  background: #000;
+  max-height: 600px;
+}
+
+.frame-gif {
+  /* Optional: Add pulse animation to draw attention */
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.modal-frame:hover .frame-gif {
+  border-color: #00b894;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .frame-video,
+  .frame-gif,
+  .frame-image {
+    width: 100%;
+    height: auto;
+  }
+}
