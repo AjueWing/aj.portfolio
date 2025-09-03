@@ -64,69 +64,69 @@
     "sourceUrl": "#"
   },
   {
-    "id": "modal2",
-    "title": "EcoTrack App",
-    "coverImage": "assets/project2-cover.jpg",
-    "frames": [
-      {
-        "section": "Overview",
-        "text": "App for tracking carbon footprint.",
-        "image": "assets/project2-overview.jpg",
-        "note": "Use lifestyle + app mockup hero."
-      },
-      {
-        "section": "Problem",
-        "text": "Users struggled to understand their eco-impact in a simple way.",
-        "image": "assets/project2-problem.jpg",
-        "note": "Could show messy/cluttered apps as comparison."
-      },
-      {
-        "section": "Research",
-        "text": "Personas and competitor apps were too complex or gamified.",
-        "image": "assets/project2-research.jpg",
-        "note": "Add persona cards and app screenshots."
-      },
-      {
-        "section": "Design Goals",
-        "text": "Make eco-tracking fun, minimal, and clear.",
-        "image": "assets/project2-goals.jpg",
-        "note": "Icon-based goals work well."
-      },
-      {
-        "section": "Process",
-        "text": "Sketches → wireframes → prototype screens.",
-        "image": "assets/project2-process.jpg",
-        "note": "Include app wireframe shots."
-      },
-      {
-        "section": "Applications",
-        "text": "Final mobile screens and interactions.",
-        "image": "assets/project2-applications.jpg",
-        "note": "Use phone mockups here."
-      },
-      {
-        "section": "Deliverables",
-        "text": "Brand kit + clickable prototype.",
-        "image": "assets/project2-deliverables.jpg",
-        "note": "Montage layout."
-      },
-      {
-        "section": "Impact",
-        "text": "Improved clarity → more consistent daily log-ins.",
-        "image": "assets/project2-impact.jpg",
-        "note": "Use stat graphics."
-      },
-      {
-        "section": "Reflection",
-        "text": "Learned to balance usability with playful design.",
-        "image": "assets/project2-reflection.jpg",
-        "note": "Soft gradient background looks good."
-      }
-    ],
-    "tech": ["React Native", "Expo", "HealthKit", "Firebase Auth"],
-    "demoUrl": "#",
-    "sourceUrl": "#"
-  },
+  "id": "modal2",
+  "title": "FixOFF – AI-Driven Branding & Digital Experience",
+  "coverImage": "assets/fixoff-cover.jpg",
+  "frames": [
+    {
+      "section": "Overview",
+      "text": "FixOFF is an experimental entertainment collective producing genre-blending music. The project scope included a full AI-driven rebrand: brand identity, website concept, mobile music app UI, and packaging/social visuals.",
+      "image": "assets/fixoff-overview.jpg",
+      "note": "Use a clean banner or title card here."
+    },
+    {
+      "section": "Problem",
+      "text": "FixOFF’s existing branding was minimal and generic, making it difficult to stand out in the crowded digital music space. Their outdated website lacked interactivity, and they struggled to resonate with AI-native younger audiences.",
+      "image": "assets/fixoff-problem.jpg",
+      "note": "Insert 'before' screenshot if you have one, else placeholder."
+    },
+    {
+      "section": "Research",
+      "text": "User personas highlighted Gen Z listeners seeking immersive aesthetics and indie creators resonating with experimental visuals. Surveys showed demand for authenticity and uniqueness. Competitor analysis revealed most music labels relied on flat, minimal branding—leaving room for bold AI-driven visuals. Moodboard keywords: Glitch, Ethereal, Algorithmic Beauty, Fluid Motion.",
+      "image": "assets/fixoff-research.jpg",
+      "note": "Collage of personas/moodboard works well here."
+    },
+    {
+      "section": "Design Goals",
+      "text": "1. Establish a recognizable brand identity blending human and machine aesthetics.\n2. Build a seamless digital journey across web and mobile.\n3. Align aesthetics with Gen Z’s love of AI-generated visuals.\n4. Position FixOFF as a cultural entertainment brand, not just a music producer.",
+      "image": "assets/project5-goals.jpg",
+      "note": "Icons + bullet list graphic fits nicely."
+    },
+    {
+      "section": "Process",
+      "text": "Started with sketches and AI-generated concepts (MidJourney, Stable Diffusion). Explored multiple logo directions blending soundwaves and power symbols. Typography: futuristic sans-serif with subtle serif accents. Colors: electric violet, deep cyber blue, gradient neutrals—balancing digital energy and warmth. Prototypes included interactive web concepts, mobile player with generative animations, and evolving AI-driven album packaging.",
+      "image": "assets/fixoff-process.jpg",
+      "note": "Document different steps; you can break into multiple slides if needed."
+    },
+    {
+      "section": "Applications",
+      "text": "Final designs applied across web, mobile app UI, vinyl/digital packaging, and social media branding. Website featured adaptive AI visuals responding to music moods. Mobile app offered clean playback with generative waveforms. Social templates designed for TikTok/Instagram looping content.",
+      "image": "assets/fixoff-applications.jpg",
+      "note": "Full-screen mockups look good here."
+    },
+    {
+      "section": "Mockups",
+      "text": "• Brand identity kit (logo, typography, colors)\n• Website prototype with AI-driven visuals\n• Mobile music app UI (iOS/Android)\n• Social ad templates\n• Album packaging visuals (vinyl + digital editions)",
+      "image": "assets/fixoff-mockups.jpg",
+      "note": "Create a montage of all deliverables."
+    },
+    {
+      "section": "Impact",
+      "text": "Projected outcomes included +30% increase in engagement, stronger brand recognition on social platforms, and an estimated 25% reduction in website bounce rate. Fictional testimonial: “The new branding finally matches our sound. It feels alive, like our music. Fans are tagging us more than ever.”",
+      "image": "assets/fixoff-impact.jpg",
+      "note": "Use metric graphics or testimonial cards."
+    },
+    {
+      "section": "Reflection",
+      "text": "This project pushed me to explore AI not just as a tool, but as a creative partner. I learned to harness generative unpredictability while building a consistent system. With more time, I’d explore real-time generative visuals that shift with the music being played.",
+      "image": "assets/fixoff-reflection.gif",
+      "note": 
+    }
+  ],
+  "tech": ["MidJourney", "Stable Diffusion", "Figma", "After Effects"],
+  "demoUrl": "#",
+  "sourceUrl": "#"
+},
   {
     "id": "modal3",
     "title": "CodeFlow IDE",
