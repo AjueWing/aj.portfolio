@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Portfolio Item
       portfolioHTML += `
         <div class="portfolio-item fade-in" data-modal="${project.id}">
-          <img src="${project.coverImage}" alt="${project.title}" class="portfolio-img" loading="lazy">
+          <img src="${project.coverImage}" alt="${project.title}" class="portfolio-img" loading="lazy" onerror="this.style.display='none'; this.parentElement.style.background='linear-gradient(135deg, #1a1a1a 0%, #00b894 100%)'">
           <div class="portfolio-overlay">
             <h3>${project.title}</h3>
             <p>${project.tech.slice(0, 2).join(' + ')}</p>
