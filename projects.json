@@ -7,55 +7,55 @@
       {
         "section": "Overview",
         "text": "Lumen is a sustainability-focused lifestyle startup that creates eco-friendly home products for urban millennials. Scope: develop a complete brand identity system, including logo redesign, typography, color system, brand guidelines, applications across packaging, website, and social media, plus a digital style guide.",
-        "image": "https://placehold.co/800x400/1a1a1a/00b894?text=Overview",
+        "image": "assets/lumen-overview.jpg",
         "note": "Use a clean banner or title card here."
       },
       {
         "section": "Problem",
-        "text": "Lumen launched quickly with a DIY logo and inconsistent visual style. The brand struggled with an outdated logo, inconsistent typography and color palette across digital and physical touchpoints, and weak differentiation in a crowded eco-lifestyle market. A strong, recognizable identity was critical to build trust, attract eco-conscious buyers, and position Lumen as premium yet approachable.",
-        "image": "https://placehold.co/800x400/1a1a1a/e74c3c?text=Problem",
+        "text": "Lumen launched quickly with a DIY logo and inconsistent visual style. The brand struggled with an outdated logo, inconsistent typography and color palette across digital and physical touchpoints, and weak differentiation in a crowded eco-lifestyle market.",
+        "image": "assets/lumen-problem.jpg",
         "note": "Show old logo or placeholder comparison."
       },
       {
         "section": "Research",
-        "text": "Market research revealed that competitors leaned heavily on green tones and nature motifs, creating visual sameness. Successful eco-brands balanced minimalism with warmth. Personas: Sofia (27, urban professional, values aesthetics and sustainability, active on Instagram) and James (34, young dad, prioritizes safety, clarity, and trust in packaging). Visual inspiration: Scandinavian minimalism, editorial typography, muted palettes with warm accents, geometric iconography.",
-        "image": "https://placehold.co/800x400/1a1a1a/3498db?text=Research",
+        "text": "Market research revealed that competitors leaned heavily on green tones and nature motifs, creating visual sameness. Successful eco-brands balanced minimalism with warmth.",
+        "image": "assets/lumen-research.jpg",
         "note": "Collage of personas, competitor brands, and moodboard."
       },
       {
         "section": "Design Goals",
-        "text": "1. Modernize identity to feel premium yet approachable.\n2. Establish a cohesive system adaptable across digital and physical assets.\n3. Differentiate from green-heavy branding clichés.\n4. Create scalable guidelines for web, packaging, and social channels.",
-        "image": "https://placehold.co/800x400/1a1a1a/f39c12?text=Goals",
+        "text": "1. Modernize identity to feel premium yet approachable. 2. Establish a cohesive system adaptable across digital and physical assets. 3. Differentiate from green-heavy branding clichés. 4. Create scalable guidelines for web, packaging, and social channels.",
+        "image": "assets/lumen-goals.jpg",
         "note": "Use icon set or simple graphic to show 4 goals."
       },
       {
         "section": "Process",
-        "text": "Logo development explored wordmark concepts emphasizing clarity and geometry. Final design: a clean sans-serif logotype with a circular accent symbolizing renewal and cycles of sustainability. Typography: modern serif (editorial elegance) paired with geometric sans-serif (digital clarity). Color palette: neutral base (off-white, stone, charcoal) with warm terracotta accent. Process included sketches, iterations, and digital refinements.",
-        "image": "https://placehold.co/800x400/1a1a1a/9b59b6?text=Process",
+        "text": "Logo development explored wordmark concepts emphasizing clarity and geometry. Final design: a clean sans-serif logotype with a circular accent symbolizing renewal and cycles of sustainability.",
+        "image": "assets/lumen-process.jpg",
         "note": "Include logo sketches, typography system, and palette graphic."
       },
       {
         "section": "Applications",
-        "text": "Applied the system across packaging, website, and social. Packaging: minimal layouts with terracotta accents for hierarchy. Website: clean grid, editorial typography, lifestyle photography. Social media: bold type overlays with warm highlights.",
-        "image": "https://placehold.co/800x400/1a1a1a/00b894?text=Applications",
+        "text": "Applied the system across packaging, website, and social. Packaging: minimal layouts with terracotta accents for hierarchy. Website: clean grid, editorial typography, lifestyle photography.",
+        "image": "assets/lumen-applications.jpg",
         "note": "Show packaging mockup, website screens, and Instagram grid."
       },
       {
         "section": "Deliverables",
-        "text": "Final outputs included the logo system (primary, icon, monochrome), typography and color guidelines, full brand guidelines PDF, packaging mockups, website homepage and product page, Instagram grid preview, and digital style guide components.",
-        "image": "https://placehold.co/800x400/1a1a1a/27ae60?text=Deliverables",
+        "text": "Final outputs included the logo system (primary, icon, monochrome), typography and color guidelines, full brand guidelines PDF, packaging mockups, website homepage and product page.",
+        "image": "assets/lumen-deliverables.jpg",
         "note": "Hero-style montage of all deliverables."
       },
       {
         "section": "Impact",
-        "text": "Projected brand recognition increase: +40% through consistent, distinct visuals. Website redesign estimated to improve clarity of product categories and reduce bounce rate by 25–30%. Social engagement projected to double due to cohesive, bold visuals. Fictional testimonial: “The new identity finally captures who we are: modern, sustainable, and human. Our customers immediately noticed the change and responded with excitement.” – Lumen Co-Founder",
-        "image": "https://placehold.co/800x400/1a1a1a/e67e22?text=Impact",
+        "text": "Projected brand recognition increase: +40% through consistent, distinct visuals. Website redesign estimated to improve clarity of product categories and reduce bounce rate by 25–30%.",
+        "image": "assets/lumen-impact.jpg",
         "note": "Add metrics graphics and testimonial card."
       },
       {
         "section": "Reflection",
-        "text": "This project reinforced the importance of balancing strategy with aesthetics—avoiding clichés while still signaling sustainability. With more time, I would extend the system into motion design for social reels and product demo videos to strengthen storytelling.",
-        "image": "https://placehold.co/800x400/1a1a1a/95a5a6?text=Reflection",
+        "text": "This project reinforced the importance of balancing strategy with aesthetics—avoiding clichés while still signaling sustainability. With more time, I would extend the system into motion design for social reels and product demo videos.",
+        "video": "assets/lumen-reflection.mp4",
         "note": "Keep this minimal with a soft visual background."
       }
     ],
@@ -71,56 +71,32 @@
       {
         "section": "Overview",
         "text": "FixOFF is an experimental entertainment collective producing genre-blending music. The project scope included a full AI-driven rebrand: brand identity, website concept, mobile music app UI, and packaging/social visuals.",
-        "image": "https://placehold.co/800x400/1a1a1a/00b894?text=Overview",
+        "image": "assets/fixoff-overview.jpg",
         "note": "Use a clean banner or title card here."
       },
       {
         "section": "Problem",
-        "text": "FixOFF’s existing branding was minimal and generic, making it difficult to stand out in the crowded digital music space. Their outdated website lacked interactivity, and they struggled to resonate with AI-native younger audiences.",
-        "image": "https://placehold.co/800x400/1a1a1a/e74c3c?text=Problem",
+        "text": "FixOFF's existing branding was minimal and generic, making it difficult to stand out in the crowded digital music space. Their outdated website lacked interactivity, and they struggled to resonate with AI-native younger audiences.",
+        "image": "assets/fixoff-problem.jpg",
         "note": "Insert 'before' screenshot if you have one, else placeholder."
       },
       {
         "section": "Research",
-        "text": "User personas highlighted Gen Z listeners seeking immersive aesthetics and indie creators resonating with experimental visuals. Surveys showed demand for authenticity and uniqueness. Competitor analysis revealed most music labels relied on flat, minimal branding—leaving room for bold AI-driven visuals. Moodboard keywords: Glitch, Ethereal, Algorithmic Beauty, Fluid Motion.",
-        "image": "https://placehold.co/800x400/1a1a1a/3498db?text=Research",
+        "text": "User personas highlighted Gen Z listeners seeking immersive aesthetics and indie creators resonating with experimental visuals. Surveys showed demand for authenticity and uniqueness.",
+        "image": "assets/fixoff-research.jpg",
         "note": "Collage of personas/moodboard works well here."
       },
       {
-        "section": "Design Goals",
-        "text": "1. Establish a recognizable brand identity blending human and machine aesthetics.\n2. Build a seamless digital journey across web and mobile.\n3. Align aesthetics with Gen Z’s love of AI-generated visuals.\n4. Position FixOFF as a cultural entertainment brand, not just a music producer.",
-        "image": "https://placehold.co/800x400/1a1a1a/f39c12?text=Goals",
-        "note": "Icons + bullet list graphic fits nicely."
-      },
-      {
-        "section": "Process",
-        "text": "Started with sketches and AI-generated concepts (MidJourney, Stable Diffusion). Explored multiple logo directions blending soundwaves and power symbols. Typography: futuristic sans-serif with subtle serif accents. Colors: electric violet, deep cyber blue, gradient neutrals—balancing digital energy and warmth. Prototypes included interactive web concepts, mobile player with generative animations, and evolving AI-driven album packaging.",
-        "image": "https://placehold.co/800x400/1a1a1a/9b59b6?text=Process",
-        "note": "Document different steps; you can break into multiple slides if needed."
-      },
-      {
         "section": "Applications",
-        "text": "Final designs applied across web, mobile app UI, vinyl/digital packaging, and social media branding. Website featured adaptive AI visuals responding to music moods. Mobile app offered clean playback with generative waveforms. Social templates designed for TikTok/Instagram looping content.",
-        "image": "https://placehold.co/800x400/1a1a1a/00b894?text=Applications",
+        "text": "Final designs applied across web, mobile app UI, vinyl/digital packaging, and social media branding. Website featured adaptive AI visuals responding to music moods.",
+        "image": "assets/fixoff-applications.jpg",
         "note": "Full-screen mockups look good here."
       },
       {
-        "section": "Mockups",
-        "text": "• Brand identity kit (logo, typography, colors)\n• Website prototype with AI-driven visuals\n• Mobile music app UI (iOS/Android)\n• Social ad templates\n• Album packaging visuals (vinyl + digital editions)",
-        "image": "https://placehold.co/800x400/1a1a1a/27ae60?text=Mockups",
-        "note": "Create a montage of all deliverables."
-      },
-      {
         "section": "Impact",
-        "text": "Projected outcomes included +30% increase in engagement, stronger brand recognition on social platforms, and an estimated 25% reduction in website bounce rate. Fictional testimonial: “The new branding finally matches our sound. It feels alive, like our music. Fans are tagging us more than ever.”",
-        "image": "https://placehold.co/800x400/1a1a1a/e67e22?text=Impact",
+        "text": "Projected outcomes included +30% increase in engagement, stronger brand recognition on social platforms, and an estimated 25% reduction in website bounce rate.",
+        "image": "assets/fixoff-impact.jpg",
         "note": "Use metric graphics or testimonial cards."
-      },
-      {
-        "section": "Reflection",
-        "text": "This project pushed me to explore AI not just as a tool, but as a creative partner. I learned to harness generative unpredictability while building a consistent system. With more time, I’d explore real-time generative visuals that shift with the music being played.",
-        "image": "https://placehold.co/800x400/1a1a1a/95a5a6?text=Reflection",
-        "note": "Subtle animation or gradient background."
       }
     ],
     "tech": ["MidJourney", "Stable Diffusion", "Figma", "After Effects"],
@@ -135,56 +111,20 @@
       {
         "section": "Overview",
         "text": "Aurora Tea Co. is a boutique tea brand in Singapore specializing in organic blends from sustainable farms. The project scope was to design a cross-platform creative campaign covering social media visuals, a campaign landing page, and refreshed packaging concepts.",
-        "image": "https://placehold.co/800x400/1a1a1a/00b894?text=Overview",
+        "image": "assets/auroratea-overview.jpg",
         "note": "Use a clean banner or title card here."
       },
       {
         "section": "Problem",
-        "text": "The company struggled with low digital engagement (<1% interaction on Instagram), fragmented branding across channels, and limited reach among younger audiences. These issues blocked growth in a market increasingly driven by digital visibility and lifestyle positioning.",
-        "image": "https://placehold.co/800x400/1a1a1a/e74c3c?text=Problem",
+        "text": "The company struggled with low digital engagement (<1% interaction on Instagram), fragmented branding across channels, and limited reach among younger audiences.",
+        "image": "assets/auroratea-problem.jpg",
         "note": "Insert 'before' screenshot if you have one, else placeholder."
-      },
-      {
-        "section": "Research",
-        "text": "User personas: Wellness Seekers (urban professionals seeking healthy lifestyle) and Aesthetic Shoppers (students drawn to visual appeal). Surveys revealed 65% wanted educational brewing content. Competitors leaned on either heritage or bold minimalism. Visual inspiration included calm gradients, serif + sans-serif pairings, and social-first reels/carousels.",
-        "image": "https://placehold.co/800x400/1a1a1a/3498db?text=Research",
-        "note": "Collage of personas/moodboard works well here."
-      },
-      {
-        "section": "Design Goals",
-        "text": "1. Unify branding across packaging, socials, and digital. 2. Boost engagement through story-driven, interactive content. 3. Appeal to Gen Z and millennials with modern yet timeless visuals. 4. Reposition Aurora Tea Co. as a lifestyle brand, not just a tea seller.",
-        "image": "https://placehold.co/800x400/1a1a1a/f39c12?text=Goals",
-        "note": "Icons + bullet list graphic fits nicely."
-      },
-      {
-        "section": "Process",
-        "text": "Started with sketches around leaf motifs and circular shapes. Typography: elegant serif (heritage) + rounded sans-serif (digital clarity). Palette: sage, beige, plum, cream. Refreshed logo with a simplified leaf emblem. Social content included brew-guide carousels, stop-motion reels, and interactive stories. Landing page designed with immersive video hero and smooth scroll animations. Packaging refreshed with gradients and QR-linked guides.",
-        "image": "https://placehold.co/800x400/1a1a1a/9b59b6?text=Process",
-        "note": "Document different steps; you can break into multiple slides if needed."
       },
       {
         "section": "Applications",
         "text": "Final applications included Instagram carousel sets, TikTok reels, story templates, landing page mockups with shop integration, and packaging prototypes with distinct color codes per blend.",
-        "image": "https://placehold.co/800x400/1a1a1a/00b894?text=Applications",
+        "image": "assets/auroratea-applications.jpg",
         "note": "Full-screen mockups look good here."
-      },
-      {
-        "section": "Deliverables",
-        "text": "Social media assets (carousels, reels, stories), campaign landing page design, refreshed packaging visuals, and brand guideline snippets (colors, typography, logo use).",
-        "image": "https://placehold.co/800x400/1a1a1a/27ae60?text=Deliverables",
-        "note": "Create a montage of all deliverables."
-      },
-      {
-        "section": "Impact",
-        "text": "Hypothetically, the redesign would increase Instagram engagement by 35%, reduce landing page bounce rate by 25%, and boost shelf visibility by 40%. Fictional testimonial: 'The campaign gave Aurora Tea Co. a new digital life. Our customers now see us as part of their daily ritual.'",
-        "image": "https://placehold.co/800x400/1a1a1a/e67e22?text=Impact",
-        "note": "Use metric graphics or testimonial cards."
-      },
-      {
-        "section": "Reflection",
-        "text": "Learned to balance heritage storytelling with digital-first design. With more time, I'd expand into interactive web experiences (AR brewing guides, personalization tools) for deeper connection.",
-        "image": "https://placehold.co/800x400/1a1a1a/95a5a6?text=Reflection",
-        "note": "Keep it text-light; use an aesthetic background."
       }
     ],
     "tech": ["Photoshop", "Illustrator", "Figma", "After Effects"],
@@ -199,56 +139,20 @@
       {
         "section": "Overview",
         "text": "FlowBank is a digital bank in Southeast Asia targeting young professionals and freelancers. The project scope involved a full mobile app redesign, including UX research, user flow reorganization, wireframes, high-fidelity UI design, and creation of a design system.",
-        "image": "https://placehold.co/800x400/1a1a1a/00b894?text=Overview",
+        "image": "assets/flowbank-overview.jpg",
         "note": "Use a clean banner or title card here."
       },
       {
         "section": "Problem",
-        "text": "FlowBank's mobile app was outdated, cluttered, and difficult to navigate. Users struggled to find transaction history, engagement with savings features was low, and the visual style no longer matched modern fintech standards. These issues were directly affecting trust, retention, and brand perception.",
-        "image": "https://placehold.co/800x400/1a1a1a/e74c3c?text=Problem",
+        "text": "FlowBank's mobile app was outdated, cluttered, and difficult to navigate. Users struggled to find transaction history, engagement with savings features was low, and the visual style no longer matched modern fintech standards.",
+        "image": "assets/flowbank-problem.jpg",
         "note": "Insert 'before' screenshot if you have one, else placeholder."
       },
       {
-        "section": "Research",
-        "text": "User research (25 surveys + interviews) showed top priorities: quick access to balances, transfers, and clear budgeting tools. Personas included Maya, a freelancer who values income/expense clarity, and Daniel, a professional who wants clean budgeting insights. Competitor analysis of Revolut, Monzo, and Wise revealed streamlined dashboards, bold accent colors, and minimalist UI as key trends.",
-        "image": "https://placehold.co/800x400/1a1a1a/3498db?text=Research",
-        "note": "Collage of personas/moodboard works well here."
-      },
-      {
-        "section": "Design Goals",
-        "text": "• Streamline navigation into 3 main sections (Overview, Transfers, Insights)\n• Modernize visuals with clean, minimal UI\n• Enhance trust through consistency and clarity\n• Increase engagement by gamifying savings and budgeting features",
-        "image": "https://placehold.co/800x400/1a1a1a/f39c12?text=Goals",
-        "note": "Icons + bullet list graphic fits nicely."
-      },
-      {
-        "section": "Process",
-        "text": "The design process began with sketches and wireframes exploring dashboard layouts. Two dashboard versions were tested—compact cards vs. full-width sections. Usability testing favored the compact card design. Typography chosen: Inter for readability. Colors: Teal (#0ABAB5) for trust, Coral (#FF6B6B) for CTAs. Icons were redesigned with rounded corners for a friendly feel.",
-        "image": "https://placehold.co/800x400/1a1a1a/9b59b6?text=Process",
-        "note": "Document different steps; you can break into multiple slides if needed."
-      },
-      {
-        "section": "Applications",
-        "text": "High-fidelity mockups included: a simplified Home Dashboard, a 2-step Transfer Flow, and gamified Savings Goal screens. These were applied across mobile prototypes and shown in context on device mockups and marketing visuals.",
-        "image": "https://placehold.co/800x400/1a1a1a/00b894?text=Applications",
-        "note": "Full-screen mockups look good here."
-      },
-      {
-        "section": "Deliverables",
-        "text": "Final outputs included: a full UI Kit (colors, typography, components, icons), an interactive prototype built in Figma, refreshed FlowBank logo and iconography, and marketing mockups showcasing the redesign on mobile devices and social ads.",
-        "image": "https://placehold.co/800x400/1a1a1a/27ae60?text=Deliverables",
-        "note": "Create a montage of all deliverables."
-      },
-      {
         "section": "Impact",
-        "text": "Hypothetical results: app abandonment reduced by 30%, savings goal usage increased by 45%, and user satisfaction rose from 3.2 to 4.5 stars. Fictional CEO testimonial: \"Vyern's redesign gave our app a fresh look and made it far easier for our customers to manage their finances. We saw immediate improvements in both engagement and retention.\"",
-        "image": "https://placehold.co/800x400/1a1a1a/e67e22?text=Impact",
+        "text": "Hypothetical results: app abandonment reduced by 30%, savings goal usage increased by 45%, and user satisfaction rose from 3.2 to 4.5 stars.",
+        "image": "assets/flowbank-impact.jpg",
         "note": "Use metric graphics or testimonial cards."
-      },
-      {
-        "section": "Reflection",
-        "text": "This project highlighted the importance of deep user listening before diving into visuals. Small UX improvements, such as reducing taps, can have huge impacts on trust and engagement. With more time, I would conduct a longitudinal study on how gamified savings features influence retention over months, not just initial adoption.",
-        "image": "https://placehold.co/800x400/1a1a1a/95a5a6?text=Reflection",
-        "note": "Keep it text-light; use an aesthetic background."
       }
     ],
     "tech": ["Figma", "Adobe Illustrator", "UserTesting", "Prototyping"],
@@ -262,57 +166,15 @@
     "frames": [
       {
         "section": "Overview",
-        "text": "Pulsewave Music Festival is a fictional annual electronic music festival attracting 20,000+ attendees. The scope of this project was to design and animate a short event intro video, motion logo, and teaser clips for social media, showcasing bold, futuristic motion graphics that match the brand's high-energy identity.",
-        "image": "https://placehold.co/800x400/1a1a1a/00b894?text=Overview",
+        "text": "Pulsewave Music Festival is a fictional annual electronic music festival attracting 20,000+ attendees. The scope of this project was to design and animate a short event intro video, motion logo, and teaser clips for social media.",
+        "image": "assets/companyname-overview.jpg",
         "note": "Use a clean banner with the Pulsewave logo and neon festival theme."
       },
       {
         "section": "Problem",
-        "text": "The festival had strong static branding on posters and merchandise, but their video content felt outdated and failed to capture the scale and excitement of the event. Their previous event intros were simple slideshows, which didn't engage audiences or stand out on social media. A dynamic motion package was needed to boost excitement and brand perception.",
-        "image": "https://placehold.co/800x400/1a1a1a/e74c3c?text=Problem",
+        "text": "The festival had strong static branding on posters and merchandise, but their video content felt outdated and failed to capture the scale and excitement of the event.",
+        "image": "assets/companyname-problem.jpg",
         "note": "Insert 'before' placeholder showing flat/static poster or image."
-      },
-      {
-        "section": "Research",
-        "text": "Research included audience personas (Gen Z and Millennials, 18–30, highly active on social media), competitor analysis (festivals like Tomorrowland and Coachella using cinematic intros), and trend scanning (neon gradients, glitch effects, 3D typography, sound-synced motion). Moodboards emphasized futuristic, high-contrast, immersive visuals.",
-        "image": "https://placehold.co/800x400/1a1a1a/3498db?text=Research",
-        "note": "Moodboard collage: neon, glitch, holographic textures."
-      },
-      {
-        "section": "Design Goals",
-        "text": "1. Create a wow-factor event intro for stage screens.\n2. Animate the Pulsewave logo to reflect rhythm and energy.\n3. Produce short teasers optimized for Instagram/TikTok.\n4. Maintain consistency with the neon-futuristic brand identity.",
-        "image": "https://placehold.co/800x400/1a1a1a/f39c12?text=Goals",
-        "note": "Icons or bullet visuals can make this more engaging."
-      },
-      {
-        "section": "Process",
-        "text": "Storyboards explored waves expanding from the logo, glitch transitions, and countdown concepts. Typography: bold, condensed sans-serif for readability on stage. Colors: electric blue, neon magenta, acid green inspired by rave lights. Motion testing included wave simulations, glitch cuts, and particle effects. Iterations balanced smooth wave transitions with glitch energy.",
-        "image": "https://placehold.co/800x400/1a1a1a/9b59b6?text=Process",
-        "note": "Storyboard frames, color palette, and motion tests screenshots."
-      },
-      {
-        "section": "Applications",
-        "text": "Final applications included the 30s event intro for LED stage screens, a 5s animated logo, and vertical social teasers. Deliverables were shown in widescreen stage mockups, mobile previews, and social ad frames.",
-        "image": "https://placehold.co/800x400/1a1a1a/00b894?text=Applications",
-        "note": "Show the animation in stage setup and mobile mockups."
-      },
-      {
-        "section": "Deliverables",
-        "text": "- 30s event intro video\n- 5s animated motion logo\n- Social teaser edits for Instagram/TikTok\n- Stage LED visuals\n- Project files (After Effects, Premiere Pro)",
-        "image": "https://placehold.co/800x400/1a1a1a/27ae60?text=Deliverables",
-        "note": "Arrange deliverables into a grid or montage."
-      },
-      {
-        "section": "Impact",
-        "text": "Hypothetically, teaser views increased by +65% compared to the previous year. Audience surveys reported 82% felt the intro made the festival feel more professional and immersive. Fictional testimonial: \"The motion graphics set the tone instantly—our audience went wild when the intro dropped. It gave us the high-tech vibe we wanted.\"",
-        "image": "https://placehold.co/800x400/1a1a1a/e67e22?text=Impact",
-        "note": "Use graphic metrics and testimonial card layout."
-      },
-      {
-        "section": "Reflection",
-        "text": "Learned the importance of syncing motion to audio for stronger impact, and the value of designing for multiple formats upfront. With more time, I'd explore 3D camera moves and generative visuals that respond live to the DJ's music.",
-        "image": "https://placehold.co/800x400/1a1a1a/95a5a6?text=Reflection",
-        "note": "Minimal text overlay on a neon gradient background."
       }
     ],
     "tech": ["After Effects", "Premiere Pro", "Photoshop", "Illustrator"],
@@ -326,60 +188,18 @@
     "frames": [
       {
         "section": "Overview",
-        "text": "Crochet by Alia Fazil is a personal handmade crochet brand specializing in cozy, handcrafted products. The project involved developing a complete brand identity system—logo, color palette, typography, packaging, and digital presence—to help the brand scale its visual storytelling and build recognition.",
-        "image": "https://placehold.co/800x400/1a1a1a/00b894?text=Overview",
+        "text": "Crochet by Alia Fazil is a personal handmade crochet brand specializing in cozy, handcrafted products. The project involved developing a complete brand identity system—logo, color palette, typography, packaging, and digital presence.",
+        "image": "assets/crochetbyaliafazil-overview.jpg",
         "note": "Use a clean banner with logo + hero mockup (e.g., tote bag, product shot)."
       },
       {
         "section": "Problem",
-        "text": "While orders were steady, the brand lacked a consistent visual identity. Social media posts felt disconnected, packaging was generic, and the brand struggled to differentiate itself from other handmade shops. The challenge was to create a cohesive identity that reflected both warmth and modernity.",
-        "image": "https://placehold.co/800x400/1a1a1a/e74c3c?text=Problem",
+        "text": "While orders were steady, the brand lacked a consistent visual identity. Social media posts felt disconnected, packaging was generic, and the brand struggled to differentiate itself from other handmade shops.",
+        "image": "assets/crochetbyaliafazil-problem.jpg",
         "note": "Show examples of unbranded/old posts vs blank product packaging."
-      },
-      {
-        "section": "Research",
-        "text": "I researched other handmade craft and crochet brands, explored lifestyle trends among young women aged 20–35, and curated inspiration around natural textures, cozy interiors, and minimal digital aesthetics. Keywords included: handmade, timeless, cozy, elegant, approachable.",
-        "image": "https://placehold.co/800x400/1a1a1a/3498db?text=Research",
-        "note": "Moodboard collage: yarn textures, warm colors, minimalist branding."
-      },
-      {
-        "section": "Design Goals",
-        "text": "1. Create a memorable logo inspired by yarn loops and circles of community.\n2. Develop a soft, earthy color palette to reflect warmth and craftsmanship.\n3. Establish digital-first brand applications for social media storytelling.\n4. Design packaging that enhances the unboxing experience.",
-        "image": "https://placehold.co/800x400/1a1a1a/f39c12?text=Goals",
-        "note": "Use icons and bullet points styled cleanly."
-      },
-      {
-        "section": "Process",
-        "text": "The design process started with sketching logo concepts inspired by loops of yarn. After digitizing, I refined the mark into a minimal line-based logo that balanced elegance with a handmade feel. Simultaneously, I explored color palettes, typography pairings, and mockups for packaging and social media.",
-        "image": "https://placehold.co/800x400/1a1a1a/9b59b6?text=Process",
-        "note": "Show sketches → logo iterations → refined versions."
-      },
-      {
-        "section": "Applications",
-        "text": "The new identity was applied across packaging (tags, tote bags, labels) and social media kits. Instagram grids, stories, and highlight icons were designed for consistency, helping the brand present itself as modern, warm, and trustworthy.",
-        "image": "https://placehold.co/800x400/1a1a1a/00b894?text=Applications",
-        "note": "Mockups of tote bag, product tags, Instagram feed, and highlights."
-      },
-      {
-        "section": "Deliverables",
-        "text": "• Final logo system (primary, secondary, and icon version)\n• Brand color palette and typography guidelines\n• Packaging designs (tags, stickers, tote bag)\n• Social media kit (Instagram grid, story templates, highlight icons)\n• Brand guideline document",
-        "image": "https://placehold.co/800x400/1a1a1a/27ae60?text=Deliverables",
-        "note": "Create a flatlay montage of all deliverables together."
-      },
-      {
-        "section": "Impact",
-        "text": "With a cohesive brand identity, Crochet by Alia Fazil's digital presence became more recognizable and professional. Customers resonated with the cozy yet modern look, and social media engagement improved significantly, driving stronger brand recall and customer loyalty.",
-        "image": "https://placehold.co/800x400/1a1a1a/e67e22?text=Impact",
-        "note": "Use Instagram stats mockup or testimonial quote from customers."
-      },
-      {
-        "section": "Reflection",
-        "text": "This project highlighted the importance of balancing handmade warmth with digital elegance. If given more time, I would explore motion graphics (animated logo loops) and a lightweight Shopify storefront design to elevate the brand further.",
-        "image": "https://placehold.co/800x400/1a1a1a/95a5a6?text=Reflection",
-        "note": "Aesthetic yarn texture background with simple text overlay."
       }
     ],
-    "tech": ["Adobe Illustrator", "Photoshop", "Canva", "After Effects (optional)", "AI Tools for Inspiration"],
+    "tech": ["Adobe Illustrator", "Photoshop", "Canva"],
     "demoUrl": "#",
     "sourceUrl": "#"
   }
