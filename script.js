@@ -124,7 +124,12 @@ document.addEventListener('DOMContentLoaded', function() {
   // Start typing effect after hero animation
   setTimeout(typeEffect, 1500);
 
-  // Load Projects from JSON
+  // Load Projects from JSON - FORCE FALLBACK FOR TESTING
+  // Temporarily load fallback projects to ensure visibility
+  console.log('Starting portfolio load...');
+  renderFallbackProjects();
+  
+  // Also try to load actual projects
   fetch('projects.json')
     .then(response => {
       if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
@@ -136,9 +141,8 @@ document.addEventListener('DOMContentLoaded', function() {
       setupModalListeners();
     })
     .catch(error => {
-      console.error('Error loading projects:', error);
-      // Show fallback content with visible projects
-      renderFallbackProjects();
+      console.error('Error loading projects, using fallback:', error);
+      // Fallback already rendered above
     });
 
   // Render Portfolio
